@@ -1,0 +1,53 @@
+/* productCard.css */
+
+.product-card {
+    width: 200px;
+    
+    padding: 10px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+span {
+    font-size: 14px;
+    color: #18d234;
+    margin-top: 5px;
+}
+
+span1 {
+    font-size: 14px;
+    color: #e819b1;
+    margin-top: 5px;
+}
+
+price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6600;
+    margin-top: 5px;
+}
+
+
+
+.product-card .discount {
+    font-size: 14px;
+    color: red;
+    margin-left: 5px;
+}
+
+h1 {
+    font-size: 16px;
+    color: #bc1616;
+    margin-top: 10px;
+}
