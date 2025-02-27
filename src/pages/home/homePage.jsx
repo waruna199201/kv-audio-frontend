@@ -1,5 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Header from "../../components/header";
+import Home from "./home";
+import ErrorNotFound from "./error";
 
 export default function HomePage(){
 
@@ -9,13 +11,16 @@ export default function HomePage(){
             <div className="h-[calc(100vh-100px)] w-full">
                 <Routes path="/*">
                 <Route path="/contact" element=
-                {<h1>Contct</h1>}/>
+                {<contact/>}/>
                 <Route path="/gallery" element=
-                {<Gallery/>}/>
+                {<gallery/>}/>
                 <Route path="/items" element=
-                {<Items/>}/>
+                {<items/>}/>
                 <Route path="/" element=
                 {<Home/>}/>
+                <Route path="/*" element=
+                {<ErrorNotFound/>}/>
+              
 
                 </Routes>
         </div>
